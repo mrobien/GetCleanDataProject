@@ -1,5 +1,6 @@
 CodeBook.md	created 2/21/2015 by Mark Robien. See README.md for data source and reference information
 ===========
+BEST VIEWED IN RAW MODE
 
 "SubID"
 	Subject ID 	(numeric) 
