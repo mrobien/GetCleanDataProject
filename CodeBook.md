@@ -14,6 +14,7 @@ BEST VIEWED IN RAW MODE
 Note - for the following, all are the (arithmetic) MEAN for 
        all observations with the value of SubID" "Activity" combination specified on the same row as the value
        all have the prefix "MEAN_" to indicate this
+       the source data were unitless, normalized (valid range min=-1.0, max=1.0) variables
        the remainder of the variable names are constucted
          "t" or "f"               - (t)ime or (f)requency domain data
 	 "Body" or "Gravity"      - indicating calculated Body or Gravity signal
