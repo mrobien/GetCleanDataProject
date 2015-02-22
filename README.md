@@ -22,7 +22,21 @@ test/X_test.txt         # the Main data file for the test set
 test/y_test.txt         # the activity code for each of the rows in the corresponding data file
 
 # 
-
+The run_analysis.R program flow: 
+  read the activity_labels.txt file which provides the descriptive form of the activity variables
+  read the main data files (train file, test file, appended in that order)
+  read the files containing the SubjectID for each of the rows in the train and test file
+              append these together, in the same order as was done for the main data files
+  read the files containing the coded Activity Type in the same manner
+  read the file containing the column descriptions for the main data file
+  now assign meaningful column names to the relevant files
+  Assemble the overall file, now containing SubID and Activity Type columns along with the main numeric data
+  Subset only the columns of interest (only those which are mean or std calculations)
+  aggregate all data for a given level of SubID+Activity, and calculate column means for the accelerometer data
+  label all columns appropriately with meaningful names (including MEAN_ prefix to denote that how/what these are dervied from)
+  clean up column names so that they conform to syntactically valid R names 
+  write output file 
+  
 
 References:
 
