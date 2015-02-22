@@ -1,7 +1,7 @@
 # GetCleanDataProject
 Course project on getting, cleaning data from Samsung Accelerometry
 
-# README.md
+# README.md (best viewed in Raw mode)
 #
 
 This associated script (run_analysis.R) assumes that the following unpacked files are in the current working directory
